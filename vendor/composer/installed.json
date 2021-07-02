@@ -1,0 +1,111 @@
+[
+    {
+        "name": "khanamiryan/qrcode-detector-decoder",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/khanamiryan/php-qrcode-detector-decoder.git",
+            "reference": "a75482d3bc804e3f6702332bfda6cccbb0dfaa76"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/khanamiryan/php-qrcode-detector-decoder/zipball/a75482d3bc804e3f6702332bfda6cccbb0dfaa76",
+            "reference": "a75482d3bc804e3f6702332bfda6cccbb0dfaa76",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6|^7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7"
+        },
+        "time": "2018-04-26T11:41:33+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zxing\\": "lib/"
+            },
+            "files": [
+                "lib/Common/customFunctions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ashot Khanamiryan",
+                "email": "a.khanamiryan@gmail.com",
+                "homepage": "https://github.com/khanamiryan",
+                "role": "Developer"
+            }
+        ],
+        "description": "QR code decoder / reader",
+        "homepage": "https://github.com/khanamiryan/php-qrcode-detector-decoder/",
+        "keywords": [
+            "barcode",
+            "qr",
+            "zxing"
+        ]
+    },
+    {
+        "name": "mike42/escpos-php",
+        "version": "v2.0.2",
+        "version_normalized": "2.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mike42/escpos-php.git",
+            "reference": "416e340f9cb90fa40611484f1b3c68df06205a84"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mike42/escpos-php/zipball/416e340f9cb90fa40611484f1b3c68df06205a84",
+            "reference": "416e340f9cb90fa40611484f1b3c68df06205a84",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "guzzlehttp/guzzle": "^5.3",
+            "phpunit/phpunit": "^4.8",
+            "squizlabs/php_codesniffer": "^3.2"
+        },
+        "suggest": {
+            "ext-gd": "Used for image printing if present.",
+            "ext-imagick": "Will be used for image printing if present. Required for PDF printing or use of custom fonts.",
+            "guzzlehttp/guzzle": "Allows the use of the ApiConnector to send print jobs over HTTP."
+        },
+        "time": "2018-06-30T03:06:21+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mike42\\": "src/Mike42"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Billington",
+                "email": "michael.billington@gmail.com"
+            }
+        ],
+        "description": "PHP receipt printer library for use with ESC/POS-compatible thermal and impact printers",
+        "homepage": "https://github.com/mike42/escpos-php",
+        "keywords": [
+            "ESC-POS",
+            "driver",
+            "escpos",
+            "print",
+            "receipt"
+        ]
+    }
+]
